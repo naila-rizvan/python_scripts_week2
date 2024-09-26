@@ -14,7 +14,6 @@ def get_host(ip_address):
             dot_count += 1
         if dot_count == 3:      # Host comes after the 3rd dot
             return ip_address[:position + 1], ip_address[position + 1:]
-            break
         position += 1
 
 
